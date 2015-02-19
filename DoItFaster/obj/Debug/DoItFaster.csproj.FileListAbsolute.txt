@@ -1,0 +1,9 @@
+C:\media\DoItFaster\DoItFaster\bin\Debug\DoItFaster.exe.config
+C:\media\DoItFaster\DoItFaster\bin\Debug\DoItFaster.exe
+C:\media\DoItFaster\DoItFaster\bin\Debug\DoItFaster.pdb
+C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.csprojResolveAssemblyReference.cache
+C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.Form1.resources
+C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.Properties.Resources.resources
+C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.csproj.GenerateResource.Cache
+C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.exe
+C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.pdb
