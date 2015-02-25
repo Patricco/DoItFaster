@@ -29,8 +29,9 @@ namespace DoItFaster
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ICAO_CODE myNewForm = new ICAO_CODE();
+            myNewForm.Show();
             string refLatDir, refLatDeg, refLatMin, refLatSec, refLongDir, refLongDeg, refLongMin, refLongSec;
-
             // Dividing reference point coordinates into useful string
             // source string mask "L00-00-00.00 L000-00-00.00"
             refLatDir = maskedTextBox1.Text.Remove(1);

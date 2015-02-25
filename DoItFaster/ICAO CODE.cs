@@ -16,5 +16,15 @@ namespace DoItFaster
         {
             InitializeComponent();
         }
+
+        private void ICAO_CODE_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string AirportCode = maskedTextBox1.Text;
+        }
     }
 }

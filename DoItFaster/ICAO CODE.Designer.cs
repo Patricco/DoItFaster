@@ -42,6 +42,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -60,26 +61,30 @@
             this.label1.Size = new System.Drawing.Size(95, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Airport ICAO code:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(15, 25);
             this.maskedTextBox1.Mask = ">AAAA";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(92, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(156, 20);
             this.maskedTextBox1.TabIndex = 3;
+            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // ICAO_CODE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(230, 81);
+            this.ClientSize = new System.Drawing.Size(186, 81);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ICAO_CODE";
-            this.Text = "ICAO_CODE";
+            this.Text = "ICAO";
+            this.Load += new System.EventHandler(this.ICAO_CODE_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
