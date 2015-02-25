@@ -42,7 +42,7 @@ namespace DoItFaster
             refLatSec = maskedTextBox1.Text.Remove(12);
             refLatSec = refLatSec.Remove(0,7);
             refLongDir = maskedTextBox1.Text.Remove(14);
-            refLongDir = refLongDir.Remove(0, 12);
+            refLongDir = refLongDir.Remove(0, 13);
             refLongDeg = maskedTextBox1.Text.Remove(17);
             refLongDeg = refLongDeg.Remove(0, 14);
             refLongMin = maskedTextBox1.Text.Remove(20);
@@ -70,6 +70,11 @@ namespace DoItFaster
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tEST2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
