@@ -7,3 +7,6 @@ C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.Properties.Resources.resourc
 C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.csproj.GenerateResource.Cache
 C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.exe
 C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.pdb
+C:\Users\Patryk\DoItFaster\DoItFaster\bin\Debug\DoItFaster.exe.config
+C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.exe
+C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.pdb
