@@ -10,7 +10,6 @@ C:\media\DoItFaster\DoItFaster\obj\Debug\DoItFaster.pdb
 C:\Users\Patryk\DoItFaster\DoItFaster\bin\Debug\DoItFaster.exe.config
 C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.exe
 C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.pdb
-C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.csprojResolveAssemblyReference.cache
 C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.Form1.resources
 C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.ICAO_CODE.resources
 C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.Properties.Resources.resources

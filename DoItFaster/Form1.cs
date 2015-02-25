@@ -57,14 +57,15 @@ namespace DoItFaster
             string komunikat;
             komunikat = System.String.Format("Saved in: {0}", saveFileDialog1.FileName);
             MessageBox.Show(komunikat); */
+            Bitmap bmp = new Bitmap(pictureBox1.Image);
+            Graphics graphicsObj = Graphics.FromImage(bmp);
+            Pen MapBorder = new Pen(System.Drawing.Color.Black, 3);
+            graphicsObj.DrawRectangle(MapBorder, 0, 0, pictureBox1.Width - 1, pictureBox1.Height - 1); // rysuje obramowanie mapy
+            pictureBox1.Image = bmp;  //this makes your changes visible
+            pictureBox1.Image.Save(@"C:\Users\Patryk\DoItFaster\DoItFaster\mapa.png", System.Drawing.Imaging.ImageFormat.Png); //zapisywanie mapy do png SCIEZKA NA SZTYWNO!!!
         }
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -75,6 +76,11 @@ namespace DoItFaster
         }
 
         private void tEST2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
         {
 
         }
