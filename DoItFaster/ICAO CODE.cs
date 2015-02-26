@@ -24,7 +24,14 @@ namespace DoItFaster
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form1 mainWindow = new Form1();
+           // var lineCount = mainWindow.richTextBox1.Lines.Count();
+            //This to get lines number.
+            int index = mainWindow.richTextBox1.SelectionStart;
+            int li = mainWindow.richTextBox1.GetLineFromCharIndex(index);
+            //int x = 4; //number of obstacles in ad 2.10 (hard coded for now- in future will take value from number of lines)
             string AirportCode = maskedTextBox1.Text;
+            string[,] obstacle = new string[4, 6];//6 columns in chinese ad2.10
             this.Close();
         }
 

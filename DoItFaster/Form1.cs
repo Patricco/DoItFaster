@@ -29,8 +29,8 @@ namespace DoItFaster
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ICAO_CODE myNewForm = new ICAO_CODE();
-            myNewForm.Show();
+            //ICAO_CODE myNewForm = new ICAO_CODE(); LEFT FOR FUTURE FOR IMPLEMENTATION OF AIRPORT CODE
+            //myNewForm.Show();
             string refLatDir, refLatDeg, refLatMin, refLatSec, refLongDir, refLongDeg, refLongMin, refLongSec;
             // Dividing reference point coordinates into useful string
             // source string mask "L00-00-00.00 L000-00-00.00"
@@ -53,10 +53,33 @@ namespace DoItFaster
             richTextBox2.Text +=refLatDir;
             richTextBox2.Text += " \n ";
             richTextBox2.Text += refLongDir;
+
+
+            //label8.Text = richTextBox1.Lines.Length.ToString();
+            string[,] obstacle = new string[richTextBox1.Lines.Length, 6];//6 columns in chinese ad2.10, and number of lines equal to number of obstacles
+
+            string inputData = richTextBox1.Text;
+            char[] delimiters1 = new char[] { '\r', '\n' };
+            string[] parts1 = inputData.Split(delimiters1, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i < parts1.Length; i++)
+            {
+                //Console.WriteLine(parts[i]);
+                char[] delimiters2 = new char[] {' ', ' '};
+                string[] parts2 = parts1[i].Split(delimiters2, StringSplitOptions.RemoveEmptyEntries);
+                for (int j=0; j<6; j++)
+                {
+                    obstacle[j, i] = parts1[j];
+                }
+                
+            }
+
+            
             /*saveFileDialog1.ShowDialog();
             string komunikat;
             komunikat = System.String.Format("Saved in: {0}", saveFileDialog1.FileName);
             MessageBox.Show(komunikat); */
+
+
             Bitmap bmp = new Bitmap(pictureBox1.Image);
             Graphics graphicsObj = Graphics.FromImage(bmp);
             Pen MapBorder = new Pen(System.Drawing.Color.Black, 3);
@@ -81,6 +104,11 @@ namespace DoItFaster
         }
 
         private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

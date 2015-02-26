@@ -16,3 +16,4 @@ C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.Properties.Resources.
 C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.csproj.GenerateResource.Cache
 C:\Users\Patryk\DoItFaster\DoItFaster\bin\Debug\DoItFaster.exe
 C:\Users\Patryk\DoItFaster\DoItFaster\bin\Debug\DoItFaster.pdb
+C:\Users\Patryk\DoItFaster\DoItFaster\obj\Debug\DoItFaster.csprojResolveAssemblyReference.cache
