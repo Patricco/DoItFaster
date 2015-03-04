@@ -66,9 +66,11 @@ namespace DoItFaster
                 //Console.WriteLine(parts[i]);
                 char[] delimiters2 = new char[] {' ', ' '};
                 string[] parts2 = parts1[i].Split(delimiters2, StringSplitOptions.RemoveEmptyEntries);
-                for (int j=0; j<6; j++)
+                for (int j = 0; j < parts2.Length; j++)
                 {
-                    obstacle[j, i] = parts1[j];
+                    obstacle[i, j] = parts2[j];
+                    if (j >= 5)
+                        break;
                 }
                 
             }
